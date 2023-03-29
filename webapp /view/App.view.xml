@@ -1,0 +1,56 @@
+<!--<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Text text="Hello World"/>
+</mvc:View>-->
+
+<!--schritt 5-->
+<!--
+<mvc:View
+   controllerName="walkthrough.webapp.controller.App"
+   xmlns="sap.m"    
+   xmlns:mvc="sap.ui.core.mvc">
+   <Button
+      text="Say Hello"
+      press=".onShowHello"/>
+</mvc:View>
+-->
+<!--schritt 6
+<mvc:View
+	controllerName="walkthrough.webapp.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Button
+		text="Say Hello"
+		press=".onShowHello"/>
+</mvc:View>
+-->
+<!--schritt 7
+<mvc:View
+	controllerName="walkthrough.webapp.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Button
+		text="Say Hello"
+		press=".onShowHello"/>
+	<Input
+		value="{/recipient/name}"
+		description="Hello {/recipient/name}"
+		valueLiveUpdate="true"
+		width="60%"/>
+</mvc:View>
+-->
+<!-- schritt 8 und 9-->
+<mvc:View
+   controllerName="walkthrough.webapp.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Button
+      text="{i18n>showHelloButtonText}"
+      press=".onShowHello"/>
+   <Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
+</mvc:View>
